@@ -1,4 +1,4 @@
-# Machine-Learning
+# Irrigation prediction using Machine-Learning
 Hi, I'm Joyeeta Sarkar.
 I'm interested in Artificial Intelligence and its fundamentals.
 This is my first code in github.
