@@ -18,3 +18,15 @@ In this system, we connect the Arduino board to the soil moisture sensor, the dh
 
 The primary goal of this project is to create an intelligent irrigation system that analyses soil moisture and assists in deciding whether to switch on or off the water supply. The goal of this project is to offer an autonomous watering system for plants, which will aid in water conservation. The primary goal of this initiative is to eliminate human labour while also conserving water and the environment.
 
+## Applied Algorithms
+
+1) The model for the **KNN (K-Nearest Neighbors)** technique is the whole training dataset. When a prediction for an unknown data instance is required, the KNN method will explore the training dataset for the k-most comparable examples. The most comparable examples' prediction attributes are aggregated and returned as the forecast for the unknown instance. The similarity metric is affected by the type of data. The Euclidean distance may be applied to real-valued data. Hamming distance may be used to other forms of data, such as category or binary data.
+•In the case of regression issues, the projected attribute's average may be returned. When it comes to categorization, the most common class may be returned.
+
+2) The **Naive Bayes Algorithm** is a straightforward way for making predictions that employs the probability of each attribute belonging to each class. If you wanted to model a predictive modelling issue probabilistically, you would use supervised learning. •Naive Bayes simplifies the computation of probabilities by assuming that the likelihood of any attribute belonging to a particular class value is independent of all other characteristics. This is a big assumption, yet it yields a quick and effective technique.
+
+•The conditional probability is the likelihood of a class value given an attribute value.We may calculate the chance of a data instance belonging to a class by multiplying the conditional probabilities for each attribute for a particular class value.
+
+•To create a forecast, we can compute the probabilities of each class's instances and choose the class value with the highest probability.
+
+•Because ratios are simple to describe and compute, Naive Bayes is frequently discussed using categorical data. For our purposes, a more relevant version of the method allows numeric characteristics and assumes that the values of each numerical attribute are regularly distributed (fall somewhere on a bell curve). Again, this is a bold assumption, but it yields a reliable outcome.
