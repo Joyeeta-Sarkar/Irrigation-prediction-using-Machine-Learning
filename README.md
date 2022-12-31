@@ -30,3 +30,5 @@ The primary goal of this project is to create an intelligent irrigation system t
 •To create a forecast, we can compute the probabilities of each class's instances and choose the class value with the highest probability.
 
 •Because ratios are simple to describe and compute, Naive Bayes is frequently discussed using categorical data. For our purposes, a more relevant version of the method allows numeric characteristics and assumes that the values of each numerical attribute are regularly distributed (fall somewhere on a bell curve). Again, this is a bold assumption, but it yields a reliable outcome.
+
+####Refer Test_code.ipynb for the test code
